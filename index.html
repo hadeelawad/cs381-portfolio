@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal academic portfolio — Computer Science student passionate about databases, problem-solving, and technology." />
+  <title>Portfolio — Hadeel Awad Alasmari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav role="navigation" aria-label="Main Navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Home — Portfolio"><span>[</span>Hadeel Awad Alasmari<span>]</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleNav(this)">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <ul class="nav-links" role="list" id="nav-menu">
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="hero-tag fade-up fade-up-1">👋 CS Student · Data Science Enthusiast</p>
+          <h1 class="hero-title fade-up fade-up-2">
+            Hi, I'm
+            <span class="accent">Hadeel Awad Alasmari</span>
+          </h1>
+          <p class="hero-id fade-up fade-up-3">Student ID: 441500454 &nbsp;|&nbsp; Major: Computer Science</p>
+          <p class="hero-desc fade-up fade-up-3">
+            A Computer Science student with a passion for databases, systems design, and building meaningful digital experiences. I enjoy exploring how technology intersects with culture, creativity, and everyday life.
+          </p>
+          <div class="hero-cta fade-up fade-up-4">
+            <a href="profile.html" class="btn btn-primary">View Profile</a>
+            <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap" aria-hidden="true">
+          <div class="hero-photo-container">
+            <div class="hero-photo-bg"></div>
+            <div class="hero-photo">
+              <img
+                src="images/photo_441500454.jpg"
+                alt="Profile photo of Hadeel"
+                onerror="this.style.display='none';"
+              />
+              
+            </div>
+            <div class="floating-badge badge-1">✦ CS Student</div>
+            <div class="floating-badge badge-2">SQL Expert 🗄️</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">About Me</p>
+          <h2 class="section-title" id="about-heading">A Little About Myself</h2>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a Computer Science student at Yanbu Industrial College, with a genuine love for databases, systems thinking, and exploring how technology can solve real-world problems. My strongest area is SQL and database design — something I find both logical and creative at the same time.
+            </p>
+            <p>
+              Outside of code, I'm drawn to the richness of culture — whether through literature, food traditions, or the stories that different societies carry. I believe a curious mind is the most valuable tool a developer can have.
+            </p>
+            <div class="quote-block">
+              <blockquote>
+                "والسِعَة والضِيق ليسا في الأرض، وليسا في الكَون من حولك، إنَّما في نفسك التي بين جنبيك، فإن اتَّسعَت؛ رأيت كل شيء رَحِبًا، مُنشَرِحًا، باسِمًا."
+              </blockquote>
+              <cite>— شروق القويعي</cite>
+            </div>
+          </div>
+
+          <div class="skills-stack" aria-label="Skills">
+            <h3 class="cv-section-title">Technical Skills</h3>
+
+            <div class="skill-item">
+              <label>HTML5 &amp; CSS3 <span>20%</span></label>
+              <div class="skill-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" aria-label="HTML5 and CSS3 proficiency 20%">
+                <div class="skill-fill" style="--w: 20%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <label>JavaScript <span>40%</span></label>
+              <div class="skill-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency 40%">
+                <div class="skill-fill" style="--w: 40%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <label>Python <span>8%</span></label>
+              <div class="skill-bar" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100" aria-label="Python proficiency 8%">
+                <div class="skill-fill" style="--w: 8%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <label>Git &amp; GitHub <span>2%</span></label>
+              <div class="skill-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" aria-label="Git and GitHub proficiency 2%">
+                <div class="skill-fill" style="--w: 2%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <label>SQL / Databases <span>87%</span></label>
+              <div class="skill-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" aria-label="SQL and Databases proficiency 87%">
+                <div class="skill-fill" style="--w: 87%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="hobbies" aria-labelledby="hobbies-heading" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Beyond Code</p>
+          <h2 class="section-title" id="hobbies-heading">Interests &amp; Hobbies</h2>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+        <div class="hobbies-grid">
+
+          <article class="card hobby-card">
+            <div class="hobby-icon" style="background: rgba(124,106,247,0.15);" aria-hidden="true">🧘‍♀️</div>
+            <h3>Pilates &amp; Stretching</h3>
+            <p>I practice Pilates and flexibility training as a way to reconnect with my body and maintain balance. For me, movement is a form of mindfulness — a quiet space away from screens and deadlines.</p>
+          </article>
+
+          <article class="card hobby-card">
+            <div class="hobby-icon" style="background: rgba(247,106,138,0.15);" aria-hidden="true">📖</div>
+            <h3>Arabic &amp; World Literature</h3>
+            <p>I have a deep love for reading Arabic and Western literature and history. Books open windows to different eras and minds — and I find that reading makes me a better thinker and problem-solver.</p>
+          </article>
+
+          <article class="card hobby-card">
+            <div class="hobby-icon" style="background: rgba(106,247,216,0.15);" aria-hidden="true">🌍</div>
+            <h3>Global Food Culture</h3>
+            <p>I'm fascinated by the food traditions of different countries and continents. I love watching cooking videos and learning how cuisine reflects identity, history, and creativity across cultures.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="goals" aria-labelledby="goals-heading" style="padding-top: 0; padding-bottom: 6rem;">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Looking Ahead</p>
+          <h2 class="section-title" id="goals-heading">My Learning Goals in Web Development</h2>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+        <div class="goal-box" role="complementary" aria-label="Learning goals statement">
+          <p>
+            My goal in learning web development is to bridge the gap between my strength in database design and the front-end world — building applications that are not only powerful on the back end, but also clear, accessible, and enjoyable to use. I want to develop a solid understanding of semantic HTML and responsive CSS, so that the interfaces I create work well for every user on every device. Beyond the technical side, I hope to build the discipline of writing clean, well-structured code — a habit that I believe will serve me throughout my career. In the long run, I aspire to work on data-driven web applications that combine my love for databases with meaningful design, and to contribute to projects that make information more accessible and useful for people in my community and beyond.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-logo"><span>[</span>Hadeel Awad Alasmari<span>]</span></p>
+      <p>© 2026 Hadeel Awad Alasmari · CS381 Web Application Development</p>
+      <p>Academic Year 1447-1448 / 2025-2026</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav(btn) {
+      const menu = document.getElementById('nav-menu');
+      const isOpen = menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen);
+    }
+  </script>
+
+</body>
+</html>
